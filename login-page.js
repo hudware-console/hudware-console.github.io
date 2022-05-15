@@ -4,9 +4,7 @@ loginButton.addEventListener("click", (e) => {
     const password = loginForm.password.value;
 
     if (username === "Jayce" && password === "D4gcXVvXGaih7YsW9LhQsWoEe") {
-        alert("You have successfully logged in.");
-        window.location.href = "/GOOD/index.html";
-        location.reload();
+        document.location.href = "https://hudware-console.github.io/UserPortal";
     } else {
         loginErrorMsg.style.opacity = 1;
     }
